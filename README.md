@@ -1,5 +1,7 @@
 Full-Stack MERN To-Do List Application
 
+I did have some guidance when I got stuck. This project took a good amount of debugging, I am still learning react. 
+
 A complete full-stack To-Do List application built from scratch using the MERN stack (MongoDB, Express, React, Node.js). This project demonstrates core web development principles including building a RESTful API, managing a database, creating a dynamic user interface with React, and handling application state.
 
 Live Demo soon
@@ -41,26 +43,29 @@ cd your-repo-name
 
 2. Backend Setup
 
-# Navigate to the backend folder
+ Navigate to the backend folder
 cd backend
 
-# Install dependencies
+ Install dependencies
 npm install
 
-# Create a .env file in the /backend folder with your MongoDB connection string
-# It should look like this:
+ Create a .env file in the /backend folder with your MongoDB connection string
+ It should look like this:
 MONGO_URI=mongodb+srv://your_username:your_password@cluster_info.mongodb.net/
 
-# Start the backend server (runs on http://localhost:5001)
+ Start the backend server (runs on http://localhost:5001)
 npm start
 
 3. Frontened
 
-# In a new terminal for frontend I did
-
+In a new terminal for frontend I did
+ 
 cd frontend
+
 npm install
+
 npm start
 
-# Server runs on localhost:3000
-# As I learn more i plan on improving user experience  
+Server runs on localhost:3000
+
+As I learn more I plan on improving user experience  
